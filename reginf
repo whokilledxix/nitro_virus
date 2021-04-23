@@ -1,0 +1,56 @@
+{
+        "postinstall": "node lib/postinstall.js"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/"
+    },
+    "keywords": [
+        "minecraft",
+        "game",
+        "browser",
+        "web",
+        "client"
+    ],
+    "engines": {
+        "node": "14.x"
+    },
+    "dependencies": {
+        "@misioxd/net-browserify": "^1.0.0",
+        "ansi-to-html": "^0.6.14",
+        "bootstrap": "^4.6.0",
+        "canvas": "^2.6.1",
+        "compression": "^1.7.4",
+        "decompress": "^4.2.1",
+        "decompress-tarxz": "^3.0.0",
+        "express": "^4.17.1",
+        "helmet": "^4.4.1",
+        "html-webpack-plugin": "^4.5.1",
+        "jquery": "^3.5.1",
+        "lodash-webpack-plugin": "^0.11.6",
+        "-data": "^2.79.0",
+        "popper.js": "^1.16.1",
+        "e-block": "^1.8.0",
+        "raf": "^3.4.1",
+        "rimraf": "^3.0.2",
+        "sweetalert": "^2.1.2",
+        "three": "^0.125.0",
+        "vec3": "^0.1.7",
+        "webpack-dev-server": "^3.11.1",
+        "webpack-merge": "^5.7.3",
+        "worker-loader": "^3.0.7"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^6.3.1",
+        "css-loader": "^5.0.1",
+        "eslint": "^7.22.0",
+        "file-loader": "^6.2.0",
+        "node-sass": "^5.0.0",
+        "sass-loader": "^10.1.1",
+        "standard": "^16.0.3",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.9.0",
+        "webpack-cli": "^4.2.0"
+    }
+}
